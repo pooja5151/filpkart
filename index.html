@@ -1,0 +1,223 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap By SKILLHUB</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+</head>
+
+<body>
+    <div class="alert alert-primary mb-0 collapse" id="c1">
+        <div class="container">
+            <div class="input-group">
+                <input type="text" class="form-control">
+                <button type="button" class="btn btn-primary">
+                    <i class="bi bi-search"></i>
+                </button>
+            </div>
+            <h4 class="my-3">Quick Links</h4>
+            <div class="row">
+                <div class="col-sm-3">
+                    <p> <a href="" class="text-decoration-none">Link 1</a> </p>
+                    <p> <a href="" class="text-decoration-none">Link 1</a> </p>
+                    <p> <a href="" class="text-decoration-none">Link 1</a> </p>
+                    <p> <a href="" class="text-decoration-none">Link 1</a> </p>
+                    <p> <a href="" class="text-decoration-none">Link 1</a> </p>
+                </div>
+                <div class="col-sm-3">
+                    <p> <a href="" class="text-decoration-none">Link 1</a> </p>
+                    <p> <a href="" class="text-decoration-none">Link 1</a> </p>
+                    <p> <a href="" class="text-decoration-none">Link 1</a> </p>
+                    <p> <a href="" class="text-decoration-none">Link 1</a> </p>
+                    <p> <a href="" class="text-decoration-none">Link 1</a> </p>
+                </div>
+                <div class="col-sm-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <img class="img-fluid"
+                                        src="https://rukminim1.flixcart.com/image/416/416/ky3b0y80/computer/o/x/k/vector-gp76-12ugs-gaming-laptop-msi-original-imagaenntv38qgcq.jpeg?q=70"
+                                        alt="">
+                                </div>
+                                <div class="col-sm-6">
+                                    <h2>Featured Item</h2>
+                                    <p>Lorem ipsum dolor sit amet.</p>
+                                    <button type="button" class="btn btn-sm btn-outline-primary">Shop Now</button>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- collapse end -->
+
+
+    <nav class="navbar navbar-expand-lg bg-primary navbar-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">Flipkart Pro</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <!-- <div class="dropdown"> -->
+                    <button class="btn btn-light dropdown-toggle" type="button" id="dropdownMenuButton1"
+                        data-bs-toggle="dropdown">
+                        Menu
+                    </button>
+                    <div class="dropdown-menu w-100 alert alert-primary py-5">
+                        <div class="container">
+
+                            <div class="row">
+                                <div class="col-sm-4">
+                                    <div class="d-flex gap-3 menu-hover px-4 py-3">
+                                        <i class="bi bi-laptop fs-1"></i>
+                                        <div>
+
+                                            <strong>laptop</strong>
+                                            <p>Lorem ipsum dolor sit amet.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- </div> -->
+                </div>
+            </div>
+
+            <div>
+                <button data-bs-target="#c1" data-bs-toggle="collapse" type="button" class="btn btn-outline-light">
+                    <i class="bi bi-search"></i>
+                </button>
+                <button type="button" class="btn btn-outline-light" data-bs-target="#cart" data-bs-toggle="offcanvas">
+                    <i class="bi bi-cart"></i>
+                </button>
+                <button type="button" class="btn btn-light">
+                    Login <i class="bi bi-lock"></i>
+                </button>
+            </div>
+        </div>
+    </nav>
+    <!-- offcanvas start -->
+    <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample">
+
+    </button>
+
+    <div class="offcanvas offcanvas-end" id="cart">
+        <div class="offcanvas-header bg-primary">
+            <h5 class="offcanvas-title text-light" id="offcanvasExampleLabel">cart</h5>
+            <button type="button" class="btn-close bg-light " data-bs-dismiss="offcanvas"></button>
+        </div>
+        <div class="offcanvas-body alert alert-primary mb-0">
+            <div class="card">
+
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-sm-3">
+                            <img src="https://i.dell.com/is/image/DellContent/content/dam/ss2/product-images/dell-client-products/notebooks/inspiron-notebooks/16-5620/media-gallery/notebook-inspiron-16-5620-2-in-1-gy-fpr-gallery-4.psd?fmt=png-alpha&scl=1&hei=62&wid=92&qlt=100,1&resMode=sharp2&size=92,62&chrss=full"
+                                alt="">
+                        </div>
+                        <div class="col-sm-6">
+                            <strong>dell XPS 13 Pro</strong>
+                            <p>Lorem ipsum dolor sit amet.</p>
+                        </div>
+                        <div class="col-sm-3">
+                            <strong>45000/-</strong>
+                        </div>
+                    </div>
+                    <p class=" text-success text-center">You Will Save <strong>₹14788</strong> on this order</p>
+                    <div class="btn-group w-100" role="group">
+                        <button type="button" class="btn btn-outline-primary">left</button>
+                        <button type="button" class="btn btn-outline-warning">middle</button>
+                        <button type="button" class="btn btn-outline-danger">right</button>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="card">
+
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-sm-3">
+                            <img src="https://i.dell.com/is/image/DellContent/content/dam/ss2/product-images/dell-client-products/notebooks/inspiron-notebooks/16-5620/media-gallery/notebook-inspiron-16-5620-2-in-1-gy-fpr-gallery-4.psd?fmt=png-alpha&scl=1&hei=62&wid=92&qlt=100,1&resMode=sharp2&size=92,62&chrss=full"
+                                alt="">
+                        </div>
+                        <div class="col-sm-6">
+                            <strong>dell XPS 13 Pro</strong>
+                            <p>Lorem ipsum dolor sit amet.</p>
+                        </div>
+                        <div class="col-sm-3">
+                            <strong>45000/-</strong>
+                        </div>
+                    </div>
+                    <p class=" text-success text-center">You Will Save <strong>₹14788</strong> on this order</p>
+                    <div class="btn-group w-100" role="group">
+                        <button type="button" class="btn btn-outline-primary">left</button>
+                        <button type="button" class="btn btn-outline-warning">middle</button>
+                        <button type="button" class="btn btn-outline-danger">right</button>
+                    </div>
+                </div>
+
+            </div>
+            <div class="card">
+
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-sm-6">
+
+
+
+                            <p>I Have Coupon Code</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample">
+                Button with data-bs-target
+            </button>
+
+            <div class="offcanvas offcanvas-start" id="login">
+                <div class="offcanvas-header bg-primary">
+                    <h5 class="offcanvas-title" id="offcanvasExampleLabel">Offcanvas</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
+                </div>
+                <div class="offcanvas-body alert alert-primary mb-0">
+                    <div class="card">
+                        <div class="card-header">Login</div>
+                        <div class="card-body">
+                            <div class="mb-4">
+
+                                <label for=""> Enter Email <span class="text-danger"></span></label>
+                                <input type="text" class="form-control" placeholder="youremail@example.com">
+                            </div>
+                            <div class="mb-4">
+
+                                <label for=""> Enter Passowrd <span class="text-danger"></span></label>
+                                <input type="text " class="form-control" placeholder="Enter your Passowrd">
+                            </div>
+
+
+                            <button type="button" class="btn btn-primary w-100">Login</button>
+                            <p class="text-center my-2">OR</p>
+                            <button type="button" class="btn btn-outline-primary btn-lg w-100">Login with </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
